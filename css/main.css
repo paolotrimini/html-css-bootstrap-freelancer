@@ -9,7 +9,7 @@
 
 body {
     /*debug*/
-    background-color: grey;
+    /*background-color: grey;*/
 }
 
 .container {
@@ -19,11 +19,11 @@ body {
 }
 
 
-/*.contenitore {
+.contenitore {
     width: 80%;
     margin: 0 auto;
     background-color: orangered;
-}*/
+}
 
 .row {
     /*debug*/
