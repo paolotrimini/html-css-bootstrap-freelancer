@@ -1,0 +1,48 @@
+/* DEBUG */
+[class*="col-"] {
+    min-height:100px;
+    background-color: red;
+    border: 1px solid #000;
+}
+
+/* REGOLE GENERALI */
+
+body {
+    /*debug*/
+   /* background-color: grey;*/
+}
+
+.container-fluid {
+    /*debug*/
+    /*height: 400px;*/
+    /*background-color: orange;*/
+}
+
+
+
+
+
+/* MEDIA QUERY */
+
+/* REGOLE DESKTOP */
+
+@media all and (min-width: 992px) {
+
+}
+
+/* REGOLE TABLET */
+
+@media all and (min-width: 768px) {
+
+}
+
+/* REGOLE MOBILE */
+
+@media all and (max-width: 767px) {
+
+    .col-xs-12 {
+        height: 50px;
+        background-color: green;
+    }
+
+}
