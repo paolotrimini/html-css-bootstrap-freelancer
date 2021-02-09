@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-    max-width: 1170px;
+    max-width: 1200px;
     width: 100%;
     margin: 0 auto;
 }
@@ -38,14 +38,14 @@ body {
 
 /* REGOLE DESKTOP */
 
-@media all and (min-width: 992px) {
+@media all and (min-width: 1170px) {
 
 
 }
 
 /* REGOLE TABLET */
 
-@media all and (min-width: 768px) {
+@media all and (min-width: 992px) {
 
 }
 
