@@ -134,7 +134,7 @@ header {
     text-align: left;
 }
 
-.about button {
+.box-btn-1 button{
     background-color: #1abc9c;
     color: white;
     font-size: 20px;
@@ -158,13 +158,35 @@ header {
     color: #3c5567;
 }
 
+.contact-box {
+    padding-bottom: 30px;
+}
+
 .contact-box p {
     text-align: left;
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 400;
-    color: white;
-
+    color: #6c757d;
 }
+
+.box-btn-2 {
+    text-align: left;
+}
+
+.box-btn-2 button {
+    background-color: #1abc9c;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 20px;
+    border-radius: 10px;
+    border: 0;
+}
+
+.text-space p {
+    padding-bottom: 200px;
+}
+
 
 
 
