@@ -1,6 +1,6 @@
 /* DEBUG */
 [class*="col-"] {
-  /*  min-height:100px;
+   /* min-height:100px;
     background-color: darkorange;
     border: 1px solid #000;*/
 }
@@ -96,6 +96,8 @@ header {
     color: white;
 }
 
+/* regole PORTFOLIO */
+
 .portfolio h2 {
     font-size: 48px;
     font-weight: bold;
@@ -108,9 +110,12 @@ header {
     color: #3c5567;
 }
 
+/* regole ABOUT */
+
 .about {
     padding-bottom: 50px;
 }
+
 
 .about h2 {
     font-size: 48px;
@@ -139,9 +144,31 @@ header {
     border: 2px solid white;
 }
 
+/* regole FORM CONTATTI */
+
+.form-contatti h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #3c5567;
+}
+
+.form-contatti p {
+    font-size: 24px;
+    font-weight: 400;
+    color: #3c5567;
+}
+
+.contact-box p {
+    text-align: left;
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+
+}
 
 
-    /*REGOLE FOOTER*/
+
+/*REGOLE FOOTER*/
 
 footer {
     color: white;
@@ -166,7 +193,7 @@ footer p:last-child {
     background-color: #3c5567;
 }
 
-.contatti .row {
+.contatti .row div {
     padding-bottom: 20px;
 }
 
