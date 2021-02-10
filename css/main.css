@@ -1,6 +1,6 @@
 /* DEBUG */
 [class*="col-"] {
-   /* min-height:100px;
+  /*  min-height:100px;
     background-color: darkorange;
     border: 1px solid #000;*/
 }
@@ -67,14 +67,38 @@ header {
 
 
 
-
-
-
 /* REGOLE MAIN */
 
+.box-image {
+    background-color: #1abc9c;
+}
+
+.box-image .jumbotron {
+    background-color: #1abc9c;
+}
+
+.box-image img {
+    width: 230px;
+    /*height: auto;*/
+}
+
+.box-image h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size:64px;
+    font-weight: bold;
+    color: white;
+}
+
+.box-image p {
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+}
 
 
-/*REGOLE FOOTER*/
+
+
+    /*REGOLE FOOTER*/
 
 footer {
     color: white;
