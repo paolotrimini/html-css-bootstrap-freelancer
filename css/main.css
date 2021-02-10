@@ -22,7 +22,6 @@ h2 {
 }
 
 
-
 .container {
     max-width: 1200px;
     width: 100%;
@@ -73,10 +72,9 @@ header {
 }
 
 
-
 /* REGOLE MAIN */
 
-.box-image, .box-image .jumbotron {
+.box-image, .box-image .jumbotron, .about {
     background-color: #1abc9c;
 }
 
@@ -108,7 +106,37 @@ header {
     font-size: 24px;
     font-weight: 400;
     color: #3c5567;
+}
 
+.about {
+    padding-bottom: 50px;
+}
+
+.about h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+}
+
+.about p {
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+}
+
+.about .text-1 p, .about .text-2 p {
+    font-size: 20px;
+    text-align: left;
+}
+
+.about button {
+    background-color: #1abc9c;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid white;
 }
 
 
@@ -136,7 +164,10 @@ footer p:last-child {
 
 .contatti {
     background-color: #3c5567;
+}
 
+.contatti .row {
+    padding-bottom: 20px;
 }
 
 .copyright {
