@@ -7,6 +7,12 @@
 
 /* REGOLE GENERALI */
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 p {
     font-family: 'Lato', sans-serif;
 }
@@ -41,7 +47,8 @@ section {
 .contenitore {
     width: 80%;
     margin: 0 auto;
-    /*background-color: orangered;*/
+    /*debug*/
+    /*background-color: yellow;*/
 }
 
 .row {
@@ -69,11 +76,7 @@ header {
 
 /* REGOLE MAIN */
 
-.box-image {
-    background-color: #1abc9c;
-}
-
-.box-image .jumbotron {
+.box-image, .box-image .jumbotron {
     background-color: #1abc9c;
 }
 
@@ -95,6 +98,18 @@ header {
     color: white;
 }
 
+.portfolio h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #3c5567;
+}
+
+.portfolio p {
+    font-size: 24px;
+    font-weight: 400;
+    color: #3c5567;
+
+}
 
 
 
