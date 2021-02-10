@@ -51,9 +51,13 @@ section {
 }
 
 .row {
-    /*debug*/
     text-align: center;
+    /*debug*/
     /*background-color: yellowgreen;*/
+}
+
+.portfolio, .about, .form-contatti {
+    padding: 50px 0;
 }
 
 /* REGOLE HEADER*/
@@ -97,6 +101,7 @@ header {
     color: white;
 }
 
+
 /* regole PORTFOLIO */
 
 .portfolio h2 {
@@ -113,7 +118,7 @@ header {
 }
 
 .immagini-port {
-    margin: 20px;
+    margin-bottom: 25px;
 }
 
 .immagini-port img {
@@ -125,10 +130,6 @@ header {
 
 
 /* regole ABOUT */
-
-.about {
-    padding-bottom: 50px;
-}
 
 
 .about h2 {
@@ -174,9 +175,9 @@ header {
     color: #3c5567;
 }
 
-.contact-box {
+/*.contact-box {
     padding-bottom: 30px;
-}
+}*/
 
 .contact-box p {
     text-align: left;
@@ -193,7 +194,6 @@ header {
 .box-btn-2 button {
     background-color: #1abc9c;
     color: white;
-
     font-size: 20px;
     font-weight: 400;
     padding: 20px;
@@ -216,7 +216,7 @@ footer {
 
 footer h2 {
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 400;
     padding-top: 10px;
 }
 footer p {
@@ -231,6 +231,14 @@ footer p:last-child {
 
 .contatti {
     background-color: #3c5567;
+}
+
+.contatti span {
+    color: #1abc9c;
+}
+
+.contatti i {
+    font-size: 45px;
 }
 
 .contatti .row div {
