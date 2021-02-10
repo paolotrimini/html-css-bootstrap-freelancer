@@ -13,7 +13,7 @@
     box-sizing: border-box;
 }
 
-p {
+p, button {
     font-family: 'Lato', sans-serif;
 }
 
@@ -26,7 +26,7 @@ h2 {
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
-    background-color: goldenrod;
+    /*background-color: goldenrod;*/
 }
 
 
@@ -79,15 +79,16 @@ header {
 }
 
 .box-image img {
-    width: 230px;
+    width: 250px;
     /*height: auto;*/
 }
 
 .box-image h1 {
     font-family: 'Montserrat', sans-serif;
-    font-size:64px;
+    font-size: 60px;
     font-weight: bold;
     color: white;
+    width: 100%;
 }
 
 .box-image p {
@@ -102,6 +103,7 @@ header {
     font-size: 48px;
     font-weight: bold;
     color: #3c5567;
+    padding-top: 50px;
 }
 
 .portfolio p {
@@ -109,6 +111,18 @@ header {
     font-weight: 400;
     color: #3c5567;
 }
+
+.immagini-port {
+    margin: 20px;
+}
+
+.immagini-port img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+
 
 /* regole ABOUT */
 
@@ -127,6 +141,7 @@ header {
     font-size: 24px;
     font-weight: 400;
     color: white;
+    padding-bottom: 20px;
 }
 
 .about .text-1 p, .about .text-2 p {
@@ -150,6 +165,7 @@ header {
     font-size: 48px;
     font-weight: bold;
     color: #3c5567;
+    padding-top: 50px;
 }
 
 .form-contatti p {
@@ -171,11 +187,13 @@ header {
 
 .box-btn-2 {
     text-align: left;
+    padding-bottom: 50px;
 }
 
 .box-btn-2 button {
     background-color: #1abc9c;
     color: white;
+
     font-size: 20px;
     font-weight: 400;
     padding: 20px;
@@ -184,7 +202,7 @@ header {
 }
 
 .text-space p {
-    padding-bottom: 200px;
+    padding-bottom: 150px;
 }
 
 
@@ -224,8 +242,9 @@ footer p:last-child {
     padding: 20px 0;
 }
 
-
-
+.copyright p {
+    padding-top: 10px;
+}
 /* MEDIA QUERY */
 
 /* REGOLE DESKTOP */
