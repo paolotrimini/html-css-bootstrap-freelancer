@@ -1,17 +1,17 @@
 /* DEBUG */
 [class*="col-"] {
-   /* min-height:100px;
-    background-color: darkorange;
+    /*min-height:100px;*/
+    /*background-color: darkorange;
     border: 1px solid #000;*/
 }
 
 /* REGOLE GENERALI */
 
-* {
+/** {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+}*/
 
 p, button {
     font-family: 'Lato', sans-serif;
@@ -60,7 +60,7 @@ section {
     padding: 50px 0;
 }
 
-/* REGOLE HEADER*/
+/* regole HEADER*/
 
 header {
     background-color: #3c5567;
@@ -72,11 +72,31 @@ header {
     font-size: 28px;
     color: white;
     text-align: left;
-    padding: 15px 0;
+    padding: 20px 0;
+
+}
+
+#nav-box {
+    text-align: right;
+    padding: 30px 0;
+}
+
+#nav-box li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#nav-box li a {
+    text-decoration: none;
+    color: white;
 }
 
 
-/* REGOLE MAIN */
+/* regole MAIN */
 
 .box-image, .box-image .jumbotron, .about {
     background-color: #1abc9c;
@@ -208,7 +228,7 @@ header {
 
 
 
-/*REGOLE FOOTER*/
+/* regole FOOTER */
 
 footer {
     color: white;
